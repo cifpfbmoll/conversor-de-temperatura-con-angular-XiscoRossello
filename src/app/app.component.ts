@@ -8,7 +8,7 @@ import { ConverterComponent } from './features/converter/converter.component';
   imports: [ConverterComponent],
   template: `
     <main class="container">
-      <h1>Temperature Converter</h1>
+      <h1>Converter</h1>
       <app-converter />
     </main>
   `,

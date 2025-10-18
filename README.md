@@ -1,27 +1,53 @@
-# TempConverter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+# Converter
 
-## Development server
+Aplicación web desarrollada en Angular para convertir entre diferentes unidades de temperatura, distancia y volumen.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- Conversión de **temperatura** entre Celsius, Fahrenheit y Kelvin.
+- Conversión de **distancia** entre Millas, Yardas, Pulgadas y Metros.
+- Conversión de **volumen** entre Galones y Litros.
+- Interfaz moderna, responsiva y fácil de usar.
+- Resultados instantáneos y redondeados para mayor claridad.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estructura de la interfaz
 
-## Build
+La aplicación muestra tres tarjetas (cards), una para cada tipo de conversión:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Temperatura**: permite convertir entre Celsius, Fahrenheit y Kelvin.
+- **Distancia**: permite convertir entre Millas, Yardas, Pulgadas y Metros.
+- **Volumen**: permite convertir entre Galones y Litros.
 
-## Running unit tests
+Cada tarjeta tiene su propio formulario y muestra el resultado de la conversión de manera independiente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación y uso
 
-## Running end-to-end tests
+1. Instala las dependencias:
+	```bash
+	npm install
+	```
+2. Inicia el servidor de desarrollo:
+	```bash
+	npm start
+	```
+3. Abre tu navegador en [http://localhost:4200](http://localhost:4200)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Scripts útiles
 
-## Further help
+- `npm start`: Inicia la aplicación en modo desarrollo.
+- `npm run build`: Compila la aplicación para producción.
+- `npm test`: Ejecuta los tests unitarios.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Estructura del código
+
+- `src/app/features/converter/`: Componente principal con los tres conversores.
+- `src/app/core/temperature.service.ts`: Servicio que gestiona la lógica de conversión para todas las unidades.
+
+## Contribución
+
+Puedes abrir issues o pull requests para sugerir mejoras o reportar errores.
+
+---
+
+Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) v18.2.21.
