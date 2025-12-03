@@ -11,6 +11,10 @@ Aplicación web desarrollada en Angular para convertir entre diferentes unidades
 - Interfaz moderna, responsiva y fácil de usar.
 - Resultados instantáneos y redondeados para mayor claridad.
 
+## Captura de pantalla
+
+![Ejemplo de la aplicación](example.png)
+
 ## Estructura de la interfaz
 
 La aplicación muestra tres tarjetas (cards), una para cada tipo de conversión:
